@@ -1,0 +1,74 @@
+/* Universal reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Section */
+body {
+  background-color: khaki;
+  margin-top: 50px;
+}
+
+/* content section */
+.content {
+  width: 60%;
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(211, 159, 29);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+/* User enter section */
+input {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: red;
+}
+
+button:hover {
+  background-color: green;
+  font-weight: bolder;
+}
+
+/* list appers here */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* list items */
+li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 12px auto;
+  width: 200px;
+  border-radius: 5px;
+}
